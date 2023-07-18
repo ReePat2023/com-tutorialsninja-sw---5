@@ -1,0 +1,898 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nop Commerce</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 18, 2023 02:00:57 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyThatUserShouldLoginAndLogoutSuccessfully</p>
+            <p class="text-sm">
+              <span>2:01:22 AM</span> / <span>00:00:02:420</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyThatUserShouldLoginAndLogoutSuccessfully</h5>
+<span class='badge badge-success'>07.18.2023 2:01:22 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:01:24 AM</span>
+<span class='badge badge-default'>00:00:02:420</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyThatUserShouldLoginAndLogoutSuccessfullyTue_Jul_18_02_01_24_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyThatUserShouldLoginAndLogoutSuccessfullyTue_Jul_18_02_01_24_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:01:22 AM</td>
+        <td>
+          click On My QAccount Tab [[ChromeDriver: chrome on windows (719a914affc4c79e08d65cda0480a2c1)] -> xpath: //span[contains(text(),'My Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:01:23 AM</td>
+        <td>
+          TEST FAILED IS verifyThatUserShouldLoginAndLogoutSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:01:23 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: com.sun.proxy.$Proxy15 cannot be cast to org.openqa.selenium.By
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserShouldNavigateToLoginPageSuccessfully</p>
+            <p class="text-sm">
+              <span>2:01:40 AM</span> / <span>00:00:02:006</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyUserShouldNavigateToLoginPageSuccessfully</h5>
+<span class='badge badge-success'>07.18.2023 2:01:40 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:01:42 AM</span>
+<span class='badge badge-default'>00:00:02:006</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyUserShouldNavigateToLoginPageSuccessfullyTue_Jul_18_02_01_42_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyUserShouldNavigateToLoginPageSuccessfullyTue_Jul_18_02_01_42_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:01:40 AM</td>
+        <td>
+          click On My QAccount Tab [[ChromeDriver: chrome on windows (de031fa23801b0e0e6f465f41c886c28)] -> xpath: //span[contains(text(),'My Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:01:41 AM</td>
+        <td>
+          TEST FAILED IS verifyUserShouldNavigateToLoginPageSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:01:41 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: com.sun.proxy.$Proxy15 cannot be cast to org.openqa.selenium.By
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyThatUserShouldLoginAndLogoutSuccessfully</p>
+            <p class="text-sm">
+              <span>2:01:57 AM</span> / <span>00:00:01:880</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyThatUserShouldLoginAndLogoutSuccessfully</h5>
+<span class='badge badge-success'>07.18.2023 2:01:57 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:01:58 AM</span>
+<span class='badge badge-default'>00:00:01:880</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyThatUserShouldLoginAndLogoutSuccessfullyTue_Jul_18_02_01_58_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyThatUserShouldLoginAndLogoutSuccessfullyTue_Jul_18_02_01_58_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:01:57 AM</td>
+        <td>
+          click On My QAccount Tab [[ChromeDriver: chrome on windows (a71e611eace69b9550720da67bee3a53)] -> xpath: //span[contains(text(),'My Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:01:58 AM</td>
+        <td>
+          TEST FAILED IS verifyThatUserShouldLoginAndLogoutSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:01:58 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: com.sun.proxy.$Proxy15 cannot be cast to org.openqa.selenium.By
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserShouldNavigateToLoginPageSuccessfully</p>
+            <p class="text-sm">
+              <span>2:02:14 AM</span> / <span>00:00:02:142</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyUserShouldNavigateToLoginPageSuccessfully</h5>
+<span class='badge badge-success'>07.18.2023 2:02:14 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:02:16 AM</span>
+<span class='badge badge-default'>00:00:02:142</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyUserShouldNavigateToLoginPageSuccessfullyTue_Jul_18_02_02_16_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyUserShouldNavigateToLoginPageSuccessfullyTue_Jul_18_02_02_16_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:02:14 AM</td>
+        <td>
+          click On My QAccount Tab [[ChromeDriver: chrome on windows (d6133f59dab2d078bac4a3f86d227227)] -> xpath: //span[contains(text(),'My Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:02:15 AM</td>
+        <td>
+          TEST FAILED IS verifyUserShouldNavigateToLoginPageSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:02:15 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: com.sun.proxy.$Proxy15 cannot be cast to org.openqa.selenium.By
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyProductAddedToShoppingCartSuccessFully</p>
+            <p class="text-sm">
+              <span>2:02:28 AM</span> / <span>00:00:00:505</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyProductAddedToShoppingCartSuccessFully</h5>
+<span class='badge badge-success'>07.18.2023 2:02:28 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:02:28 AM</span>
+<span class='badge badge-default'>00:00:00:505</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_Jul_18_02_02_28_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_Jul_18_02_02_28_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:02:28 AM</td>
+        <td>
+          Select Currency [[ChromeDriver: chrome on windows (d3a96b893be9cb307c260d659c041a80)] -> xpath: //span[contains(text(),'Currency')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:02:28 AM</td>
+        <td>
+          TEST FAILED IS verifyProductAddedToShoppingCartSuccessFully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:02:28 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: com.sun.proxy.$Proxy15 cannot be cast to org.openqa.selenium.By
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyProductArrangeInAlphabeticalOrder</p>
+            <p class="text-sm">
+              <span>2:02:38 AM</span> / <span>00:00:00:688</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyProductArrangeInAlphabeticalOrder</h5>
+<span class='badge badge-success'>07.18.2023 2:02:38 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:02:39 AM</span>
+<span class='badge badge-default'>00:00:00:688</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyProductArrangeInAlphabeticalOrderTue_Jul_18_02_02_39_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyProductArrangeInAlphabeticalOrderTue_Jul_18_02_02_39_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:02:38 AM</td>
+        <td>
+          Select Currency [[ChromeDriver: chrome on windows (3b13775467160dba255cf9a62304766f)] -> xpath: //span[contains(text(),'Currency')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:02:38 AM</td>
+        <td>
+          TEST FAILED IS verifyProductArrangeInAlphabeticalOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:02:38 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: com.sun.proxy.$Proxy15 cannot be cast to org.openqa.selenium.By
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyProductsPriceDisplayHighToLowSuccessfully</p>
+            <p class="text-sm">
+              <span>2:02:50 AM</span> / <span>00:00:00:664</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyProductsPriceDisplayHighToLowSuccessfully</h5>
+<span class='badge badge-success'>07.18.2023 2:02:50 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:02:50 AM</span>
+<span class='badge badge-default'>00:00:00:664</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyProductsPriceDisplayHighToLowSuccessfullyTue_Jul_18_02_02_50_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyProductsPriceDisplayHighToLowSuccessfullyTue_Jul_18_02_02_50_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:02:50 AM</td>
+        <td>
+          Select Currency [[ChromeDriver: chrome on windows (1feab7f394502005d43db449622775bc)] -> xpath: //span[contains(text(),'Currency')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:02:50 AM</td>
+        <td>
+          TEST FAILED IS verifyProductsPriceDisplayHighToLowSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:02:50 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: com.sun.proxy.$Proxy15 cannot be cast to org.openqa.selenium.By
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyThatUserPlaceOrderSuccessfully</p>
+            <p class="text-sm">
+              <span>2:03:03 AM</span> / <span>00:00:00:599</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyThatUserPlaceOrderSuccessfully</h5>
+<span class='badge badge-success'>07.18.2023 2:03:03 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:03:03 AM</span>
+<span class='badge badge-default'>00:00:00:599</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyThatUserPlaceOrderSuccessfullyTue_Jul_18_02_03_03_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyThatUserPlaceOrderSuccessfullyTue_Jul_18_02_03_03_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:03:03 AM</td>
+        <td>
+          Select Currency [[ChromeDriver: chrome on windows (d61c24b0b65bc97d3c2f39e3269a76dd)] -> xpath: //span[contains(text(),'Currency')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:03:03 AM</td>
+        <td>
+          TEST FAILED IS verifyThatUserPlaceOrderSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:03:03 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: com.sun.proxy.$Proxy15 cannot be cast to org.openqa.selenium.By
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserShouldNavigateToComponentsPageSuccessfully</p>
+            <p class="text-sm">
+              <span>2:03:14 AM</span> / <span>00:00:03:109</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyUserShouldNavigateToComponentsPageSuccessfully</h5>
+<span class='badge badge-success'>07.18.2023 2:03:14 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:03:17 AM</span>
+<span class='badge badge-default'>00:00:03:109</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyUserShouldNavigateToComponentsPageSuccessfullyTue_Jul_18_02_03_17_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyUserShouldNavigateToComponentsPageSuccessfullyTue_Jul_18_02_03_17_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:03:14 AM</td>
+        <td>
+          mouseHover On Component And Click [[ChromeDriver: chrome on windows (ab03de5534e69f87393286cef3a3bff5)] -> link text: Components]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:03:16 AM</td>
+        <td>
+          select Menu By.xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:03:17 AM</td>
+        <td>
+          TEST FAILED IS verifyUserShouldNavigateToComponentsPageSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:03:17 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: org.openqa.selenium.By$ByXPath cannot be cast to org.openqa.selenium.WebElement
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserShouldNavigateToDesktopsPageSuccessfully</p>
+            <p class="text-sm">
+              <span>2:03:28 AM</span> / <span>00:00:01:956</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyUserShouldNavigateToDesktopsPageSuccessfully</h5>
+<span class='badge badge-success'>07.18.2023 2:03:28 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:03:30 AM</span>
+<span class='badge badge-default'>00:00:01:956</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyUserShouldNavigateToDesktopsPageSuccessfullyTue_Jul_18_02_03_30_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyUserShouldNavigateToDesktopsPageSuccessfullyTue_Jul_18_02_03_30_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:03:29 AM</td>
+        <td>
+          Click on desktop
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:03:29 AM</td>
+        <td>
+          select Menu By.xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:03:30 AM</td>
+        <td>
+          TEST FAILED IS verifyUserShouldNavigateToDesktopsPageSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:03:30 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: org.openqa.selenium.By$ByXPath cannot be cast to org.openqa.selenium.WebElement
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully</p>
+            <p class="text-sm">
+              <span>2:03:40 AM</span> / <span>00:00:01:817</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully</h5>
+<span class='badge badge-success'>07.18.2023 2:03:40 AM</span>
+<span class='badge badge-danger'>07.18.2023 2:03:41 AM</span>
+<span class='badge badge-default'>00:00:01:817</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfullyTue_Jul_18_02_03_41_IST_2023.jpg' src="C:\Users\Riya Patel\IdeaProjects\com-tutorialsninja-sw-5/test-output/html/verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfullyTue_Jul_18_02_03_41_IST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:03:40 AM</td>
+        <td>
+          mouseHover On Laptop And Click [[ChromeDriver: chrome on windows (bfcbd839da3dac800a55cbc846a445b3)] -> link text: Laptops & Notebooks]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:03:40 AM</td>
+        <td>
+          select Menu By.xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:03:41 AM</td>
+        <td>
+          TEST FAILED IS verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:03:41 AM</td>
+        <td>
+          TEST FAILED IS java.lang.ClassCastException: org.openqa.selenium.By$ByXPath cannot be cast to org.openqa.selenium.WebElement
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 18, 2023 02:00:57 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 18, 2023 02:03:43 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>11</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>11</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='38%'><b>14</b> events passed</small></div>
+<div>
+<small data-tooltip='61%'><b>22</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"verifyThatUserShouldLoginAndLogoutSuccessfully":2.42,"verifyUserShouldNavigateToLoginPageSuccessfully":2.006,"verifyThatUserShouldLoginAndLogoutSuccessfully":1.88,"verifyUserShouldNavigateToLoginPageSuccessfully":2.142,"verifyProductAddedToShoppingCartSuccessFully":0.505,"verifyProductArrangeInAlphabeticalOrder":0.688,"verifyProductsPriceDisplayHighToLowSuccessfully":0.664,"verifyThatUserPlaceOrderSuccessfully":0.599,"verifyUserShouldNavigateToComponentsPageSuccessfully":3.109,"verifyUserShouldNavigateToDesktopsPageSuccessfully":1.956,"verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully":1.817
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>User Name</td>
+<td>Riya Patel</td>
+</tr>
+<tr>
+<td>Time Zone</td>
+<td>Asia/Calcutta</td>
+</tr>
+<tr>
+<td>Machine</td>
+<td>Windows 1064 Bit</td>
+</tr>
+<tr>
+<td>Selenium</td>
+<td>3.141.59</td>
+</tr>
+<tr>
+<td>Maven</td>
+<td>3.5.9</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>1.8.0_151</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 11,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 14,
+failEvents: 22,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
